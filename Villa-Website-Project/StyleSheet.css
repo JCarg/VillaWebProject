@@ -5,6 +5,9 @@
 .navbar-collapse {
   text-align:center;
 }
+.col-sm-8 .navbar-toggle{
+    background-color:#69CFBF;
+}
 .navbar{
     margin-bottom:0px;
     background-color:white;
@@ -12,33 +15,48 @@
 .navbar-nav {
     display:inline-block;
     float:none;
+    color:#69CFBF;
 }
-.container navigbar{
-    border:none;      
+nav.navbar{
+        border-radius: 0px;
 }
+.treebutton{
+padding-left:0;
+}
+.treebutton .btn-info{
+    background-color:#69CFBF;
+    left: 0px;
+    height: 57px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width:auto;
+    font-size:12px;
+    border-radius:0px;    
+}
+.secondbutton button{
+    height: 57px;
+    right: 1px;
+    background-color:#82BFD8;
+    font-size:12px;
+    border-radius:0px;
+}
+.secondbutton{
+    text-align:right;
+    padding-right: 0px;
+}
+
+.navbar .container{
+        padding-left: 0px;
+    padding-right: 0px;
+}
+
 /*Nav customization End*/
 
 /*Footer Customizations*/
 .footer {
-    background: #061D25;
-    padding: 10px 0;
+    background-color: #E4E4E4;
 }
-.footer a {
-    color: #70726F;
-    font-size: 20px;
-    padding: 10px;
-    border-right: 1px solid #70726F;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-}
-.footer a:first-child {
-    border-left: 1px solid #70726F;
-}
-.footer a:hover {
-    color: white;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-}
+
 /*Footer Custom End*/
 
 /*Grid Customization*/
@@ -61,7 +79,7 @@
      padding:0px;
      min-height:583.27px;
  }
- .container .btn {
+ .captionmed .btn {
 
 padding-right:40px;
     padding-left:40px;
@@ -97,7 +115,7 @@ font-family: 'Muli', sans-serif;
     left: 173px;
 }
 
-.container .btn{  
+.row1 .btn {  
     float:right;
     position: absolute;
     right: 45px;
@@ -120,6 +138,7 @@ font-family: 'Muli', sans-serif;
 }
 .captionmap .btn{
 background-color:#82bfd8;
+border-radius:0px;
 }
 .col-sm-3
     {
@@ -135,6 +154,8 @@ padding-left: .5px !important;
     background-color: white;
     color: #69CFBF;
     font-weight:bold;
+    padding-bottom: 62px;
+    padding-top: 53px;
 }
 .cell1 p{
     color: black;
@@ -192,6 +213,7 @@ padding:0px;
     background-color:white;
     padding-top: 1px;
     padding-bottom: 82px;
+    padding-bottom: 48px
 }
 .blankcell1 h4{
 font-weight:bold;
@@ -215,6 +237,49 @@ text-align:center;
 background-color:white;
     right: 60px;
 }
+.blankcell3{
+    padding-bottom: 29px;
+    color:black;
+    text-align:center;
+    background-color:white;
+    padding-top: 1px;
+    padding-bottom: 82px
+}
+.blankcell3 p{
+    color:black;
+    font-size:15px;
+    margin-top: 36px;
+}
+.blankcell3 h4{
+font-weight:bold;
+background-color:white;
+}
+.cell15{
+    text-align: center;
+    font-style: italic;
+    background-color: #69CFBF;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    color:white;
+    font-weight:bold;
+}
+.cell15 .btn{
+    
+    color:black;
+    outline:auto;
+    outline-color:black;
+}
+.cell15 .btn-default{
+background-color:#69CFBF;
+    margin-top: 33px;
+}
+.cell16{
+    background-color:white;
+        width: 100%;
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 59px;
+}
 
 
 
@@ -230,6 +295,22 @@ background-color: rgba(68, 68, 68, 0.5);
 }
 .btn-default{
 rotation:90deg;
+}
+    .amenitiescaption {
+    }
+.greenblock
+{
+    background-color:#69CFBF;
+    color:white;
+    width:61px;
+    text-align:center;
+    top: 0%;
+    padding-bottom: 0px;
+    height: 54px;
+    width: 73px;
+    left: 198px;
+    position:absolute;
+    width:auto;
 }
 }
 
