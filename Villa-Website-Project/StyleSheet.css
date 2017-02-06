@@ -126,42 +126,95 @@ background-color:#82bfd8;
 padding-left: .5px !important;
         padding-right: .5px !important;
     }
+/*End Row 1 Customization*/
 
-/*@media(min-width:768px){
-.mapimage{
-    min-height:584px!important;
-    max-height:584px!important;
-    max-width:300px!important;
+/*Main Grid Blank Squares Customization*/
+.cell1{
+    top: 16%;
+    left: 50px;
+    background-color: white;
+    color: #69CFBF;
+    font-weight:bold;
 }
-.map{
-    display:inline-block;
-    position: absolute;
-    right:-16px;
-    z-index:-1;
-    max-height:584px!important;
+.cell1 p{
+    color: black;
+    font-weight:normal;
 }
+.cell1 h4{
+    font-weight:bold;
 }
-@media(max-width:767px){
-    .mapimage{
-    min-height:100%!important;
-    max-height:100%!important;
-    max-width:100%!important;
+.piccaption{
+    TEXT-ALIGN: CENTER;
+    left: 26px;
+    width: 240px;
+    COLOR: WHITE;
+    top: 33%;
+    padding-bottom:0px;
 }
-    .map{
-    /*display:inline-block;
-    position: absolute;
-    right:768px;
-    z-index:-1;*/
-    /*max-height:100%!important;
-}
-    .col-sm-4{
-        padding-left:0px!important;
-        padding-right:0px!important;
-    }
-}*/
 
-
-
+.amenitiescaption{
+    left: 10px;
+    top: 77%;
+    width: 271px;
+    padding-bottom: 0px;
+    color: white;
+}
+.amenitiescaption li{
+    float:left;
+    list-style-type:none;
+    color:white;
+    margin-right:10px;
+    margin-left:3px;
+}
+.amenitiescaption h4{
+    margin-bottom: 5px;
+    padding-left:32px;
+}
+.greenblock
+{
+    background-color:#69CFBF;
+    color:white;
+    width:61px;
+    text-align:center;
+    top: 0%;
+    padding-bottom: 0px;
+    height: 54px;
+    width: 73px;
+    left: 198px;
+    position:absolute;
+}
+.greenblock h4{
+padding:0px;
+}
+.blankcell1{
+    color:black;
+    text-align:center;
+    background-color:white;
+    padding-top: 1px;
+    padding-bottom: 82px;
+}
+.blankcell1 h4{
+font-weight:bold;
+margin-top:33px;
+background-color:white;
+}
+.blankcell1 p{
+    font-size:15px;
+    margin-top: 44px;
+    color:black;
+    background-color:white;
+}
+.blankcell1 .btn{
+    color:#69CFBF;
+    outline:auto;
+    outline-color:#69CFBF;
+    background-color:none;  
+}
+.blankcell1 .btn-default{
+text-align:center;
+background-color:white;
+    right: 60px;
+}
 
 
 
