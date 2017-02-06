@@ -13,22 +13,20 @@
 <body>
 
     <!--Header Nav-->
-    <div class="container">
-        <div class="row">          
+    <div class="container navigbar">
+        <div class="row">
             <nav class="navbar">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="col-sm-2">
                         <img src="http://www.post-gazette.com/image/2016/10/26/65x46_cCM_q80_ca4,45,684,725/bran-castle-vlad-tepes-2.jpg" class="img-responsive" style="width:auto;" />
                     </div>
                     <div class="col-sm-8">
                         <div class="navbar-header">
-                            <div class="btn">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                            </div>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav">
@@ -37,11 +35,11 @@
                                 <li><a href="#">Contacts</a></li>
                             </ul>
                         </div>
-                        <!--<div class="col-sm-1">-->
-                            <ul class="nav">
-                                <li><a href="#"><span class=""></span> Properties</a></li>
-                            </ul>
-                        <!--</div>-->
+                    </div>
+                    <div class="col-sm-1">
+                        <ul class="nav">
+                            <li><a href="#"><span class="icon-bar"></span>Properties</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -50,19 +48,30 @@
     <!--end Header Nav-->
     <!--Row 1-->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-9"">
+        <div class="row row1">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 largeimage">
                 <div class="thumbnail text-center">                  
                     <img datatype="background"src="Content/images/rent-villa-in-tuscany_WOT.jpg" class="img-responsive" alt="Image" />               
-                        <div class="caption">
+                        <div class="caption captionmed">
                         <h3>FEEL LIKE HOME AWAY FROM HOME <span class="label label-default"></span></h3>
                             <p>FIND YOUR EXCLUSIVE TUSCAN VILLA FOR HOLIDAYS</p>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                               <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                            </button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 map">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 map">
                 <div>
                     <img src="Content/images/new map.jpg" class="img-responsive mapimage" alt="Image" />
+                    <div class="caption captionmap">
+                        <h4>FIND YOUR<span class="label label-default"></span></h4>
+                        <h3>TUSCANY VILLA</h3>
+                        <p id="2p">EXPLORE THE MAP</p>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,20 +81,22 @@
     <div class="bodygrid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="cell">
-                        <div class="background"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>                         
+                <div class="cell1">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="cell">
+                            <div class="background"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="ccol-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell"><img src="Content/images/sunpool.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/nightpool.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/ybedroom.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
@@ -98,20 +109,20 @@
     <div class="bodygrid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell image"><img src="Content/images/Villa-Rucellai-Toscani-2750-2-348x348.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell image"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
@@ -124,20 +135,20 @@
     <div class="bodygrid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell"><img src="Content/images/Villa-Vanna-231-348x348.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="cell">
                         <div class="cell"><img src="Content/images/img-thing.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
                     </div>
@@ -148,7 +159,7 @@
     <!--Row end-->
     <!--Footer-->
     <div class="footer">
-        <footer class="container-fluid text-center">
+        <footer class="container text-center">
             <div class="container text-center">
                 <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
                 <a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
