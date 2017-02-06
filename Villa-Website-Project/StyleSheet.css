@@ -1,52 +1,60 @@
 ﻿body {
-    background-color:#CDCFCD;
+    background-color: #CDCFCD;
 }
 /*Navigation Customizations*/
 .navbar-collapse {
-  text-align:center;
+    text-align: center;
 }
-.col-sm-8 .navbar-toggle{
-    background-color:#69CFBF;
+
+.col-sm-8 .navbar-toggle {
+    background-color: #69CFBF;
 }
-.navbar{
-    margin-bottom:0px;
-    background-color:white;
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: white;
 }
+
 .navbar-nav {
-    display:inline-block;
-    float:none;
-    color:#69CFBF;
+    display: inline-block;
+    float: none;
+    color: #69CFBF;
 }
-nav.navbar{
+
+nav.navbar {
+    border-radius: 0px;
+}
+
+.treebutton {
+    padding-left: 0;
+}
+
+    .treebutton .btn-info {
+        background-color: #69CFBF;
+        left: 0px;
+        height: 57px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: auto;
+        font-size: 12px;
         border-radius: 0px;
-}
-.treebutton{
-padding-left:0;
-}
-.treebutton .btn-info{
-    background-color:#69CFBF;
-    left: 0px;
-    height: 57px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width:auto;
-    font-size:12px;
-    border-radius:0px;    
-}
-.secondbutton button{
+    }
+
+.secondbutton button {
     height: 57px;
     right: 1px;
-    background-color:#82BFD8;
-    font-size:12px;
-    border-radius:0px;
+    background-color: #82BFD8;
+    font-size: 12px;
+    border-radius: 0px;
 }
-.secondbutton{
-    text-align:right;
+
+.secondbutton {
+    text-align: right;
     padding-right: 0px;
 }
 
-.navbar .container{
-        padding-left: 0px;
+.navbar .container {
+    padding-left: 0px;
     padding-right: 0px;
 }
 
@@ -60,222 +68,247 @@ padding-left:0;
 /*Footer Custom End*/
 
 /*Grid Customization*/
-.bodygrid, #bodycell{
-    padding-bottom:.5px;
-    padding-left:.5px;
-    padding-right:.5px;
-    padding-top:.5px;
+.bodygrid, #bodycell {
+    padding-bottom: .5px;
+    padding-left: .5px;
+    padding-right: .5px;
+    padding-top: .5px;
 }
-.col-sm-12, .col-xs-12{
-    padding:0px;
+
+.col-sm-12, .col-xs-12 {
+    padding: 0px;
 }
 
 /*Row1 Customization*/
- .largeimage{
-     padding-left: .5px !important;
-     padding-right: .5px !important;
- }
- .map, .mapimage{
-     padding:0px;
-     min-height:583.27px;
- }
- .captionmed .btn {
+.largeimage {
+    padding-left: .5px !important;
+    padding-right: .5px !important;
+}
 
-padding-right:40px;
-    padding-left:40px;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-radius:0px;
-    border:none;
+.map, .mapimage {
+    padding: 0px;
+    min-height: 583.27px;
 }
- .captionmed .btn{
-background-color:#69CFBF;
- }
-.btn-default{
-color:white;
+
+.captionmed .btn {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    border: none;
 }
+
+.captionmed .btn {
+    background-color: #69CFBF;
+}
+
+.btn-default {
+    color: white;
+}
+
 .thumbnail {
     position: relative;
-    padding:0px;
-    margin-bottom:0px;
-    background-color:none;
-}
-.captionmed h3,p{
-color:white;
-font-family: 'Muli', sans-serif; 
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: none;
 }
 
-.caption{
+.captionmed h3, p {
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.caption {
     position: absolute;
     top: 45%;
     left: 0;
-    background-color: rgba(68, 68, 68, 0.5);     
-    padding-bottom:25px;  
+    background-color: rgba(68, 68, 68, 0.5);
+    padding-bottom: 25px;
     width: 518px;
     left: 173px;
 }
 
-.row1 .btn {  
-    float:right;
+.row1 .btn {
+    float: right;
     position: absolute;
     right: 45px;
-    outline:0px;   
+    outline: 0px;
 }
 
-.captionmap{
-    text-align:center;
+.captionmap {
+    text-align: center;
     width: 238px;
     left: 31px;
-    background-color:white;
-    
+    background-color: white;
 }
-.captionmap h3{
-    color:black;
-    margin-top:13px;
-}
-.captionmap p{
-    color:black;
-}
-.captionmap .btn{
-background-color:#82bfd8;
-border-radius:0px;
-}
-.col-sm-3
-    {
-padding-left: .5px !important;
-        padding-right: .5px !important;
+
+    .captionmap h3 {
+        color: black;
+        margin-top: 13px;
     }
+
+    .captionmap p {
+        color: black;
+    }
+
+    .captionmap .btn {
+        background-color: #82bfd8;
+        border-radius: 0px;
+    }
+
+.col-sm-3 {
+    padding-left: .5px !important;
+    padding-right: .5px !important;
+}
 /*End Row 1 Customization*/
 
 /*Main Grid Blank Squares Customization*/
-.cell1{
+.cell1 {
     top: 16%;
     left: 50px;
     background-color: white;
     color: #69CFBF;
-    font-weight:bold;
+    font-weight: bold;
     padding-bottom: 62px;
     padding-top: 53px;
 }
-.cell1 p{
-    color: black;
-    font-weight:normal;
-}
-.cell1 h4{
-    font-weight:bold;
-}
-.piccaption{
+
+    .cell1 p {
+        color: black;
+        font-weight: normal;
+    }
+
+    .cell1 h4 {
+        font-weight: bold;
+    }
+
+.piccaption {
     TEXT-ALIGN: CENTER;
     left: 26px;
     width: 240px;
     COLOR: WHITE;
     top: 33%;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
-.amenitiescaption{
+.amenitiescaption {
     left: 10px;
     top: 77%;
     width: 271px;
     padding-bottom: 0px;
     color: white;
 }
-.amenitiescaption li{
-    float:left;
-    list-style-type:none;
-    color:white;
-    margin-right:10px;
-    margin-left:3px;
-}
-.amenitiescaption h4{
-    margin-bottom: 5px;
-    padding-left:32px;
-}
-.greenblock
-{
-    background-color:#69CFBF;
-    color:white;
-    width:61px;
-    text-align:center;
+
+    .amenitiescaption li {
+        float: left;
+        list-style-type: none;
+        color: white;
+        margin-right: 10px;
+        margin-left: 3px;
+    }
+
+    .amenitiescaption h4 {
+        margin-bottom: 5px;
+        padding-left: 32px;
+    }
+
+.greenblock {
+    background-color: #69CFBF;
+    color: white;
+    width: 61px;
+    text-align: center;
     top: 0%;
     padding-bottom: 0px;
     height: 54px;
     width: 73px;
     left: 198px;
-    position:absolute;
+    position: absolute;
 }
-.greenblock h4{
-padding:0px;
-}
-.blankcell1{
-    color:black;
-    text-align:center;
-    background-color:white;
+
+    .greenblock h4 {
+        padding: 0px;
+    }
+
+.blankcell1 {
+    color: black;
+    text-align: center;
+    background-color: white;
     padding-top: 1px;
     padding-bottom: 82px;
-    padding-bottom: 48px
+    padding-bottom: 48px;
 }
-.blankcell1 h4{
-font-weight:bold;
-margin-top:33px;
-background-color:white;
-}
-.blankcell1 p{
-    font-size:15px;
-    margin-top: 44px;
-    color:black;
-    background-color:white;
-}
-.blankcell1 .btn{
-    color:#69CFBF;
-    outline:auto;
-    outline-color:#69CFBF;
-    background-color:none;  
-}
-.blankcell1 .btn-default{
-text-align:center;
-background-color:white;
-    right: 60px;
-}
-.blankcell3{
+
+    .blankcell1 h4 {
+        font-weight: bold;
+        margin-top: 33px;
+        background-color: white;
+    }
+
+    .blankcell1 p {
+        font-size: 15px;
+        margin-top: 44px;
+        color: black;
+        background-color: white;
+    }
+
+    .blankcell1 .btn {
+        color: #69CFBF;
+        outline: auto;
+        outline-color: #69CFBF;
+        background-color: none;
+    }
+
+    .blankcell1 .btn-default {
+        text-align: center;
+        background-color: white;
+        right: 60px;
+    }
+
+.blankcell3 {
     padding-bottom: 29px;
-    color:black;
-    text-align:center;
-    background-color:white;
+    color: black;
+    text-align: center;
+    background-color: white;
     padding-top: 1px;
-    padding-bottom: 82px
+    padding-bottom: 82px;
 }
-.blankcell3 p{
-    color:black;
-    font-size:15px;
-    margin-top: 36px;
-}
-.blankcell3 h4{
-font-weight:bold;
-background-color:white;
-}
-.cell15{
+
+    .blankcell3 p {
+        color: black;
+        font-size: 15px;
+        margin-top: 36px;
+    }
+
+    .blankcell3 h4 {
+        font-weight: bold;
+        background-color: white;
+    }
+
+.cell15 {
     text-align: center;
     font-style: italic;
     background-color: #69CFBF;
     padding-top: 1px;
     padding-bottom: 30px;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
 }
-.cell15 .btn{
-    
-    color:black;
-    outline:auto;
-    outline-color:black;
-}
-.cell15 .btn-default{
-background-color:#69CFBF;
-    margin-top: 33px;
-}
-.cell16{
-    background-color:white;
-        width: 100%;
+
+    .cell15 .btn {
+        color: black;
+        outline: auto;
+        outline-color: black;
+    }
+
+    .cell15 .btn-default {
+        background-color: #69CFBF;
+        margin-top: 33px;
+    }
+
+.cell16 {
+    background-color: white;
+    width: 100%;
     position: relative;
     padding-top: 48px;
     padding-bottom: 59px;
@@ -284,54 +317,57 @@ background-color:#69CFBF;
 
 
 
-@media screen and (max-width:640px){
-.caption{
-background-color: rgba(68, 68, 68, 0.5);     
-    padding-bottom:25px; 
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width:100%;
-}
-.btn-default{
-rotation:90deg;
-}
+@media screen and (max-width:640px) {
+    .caption {
+        background-color: rgba(68, 68, 68, 0.5);
+        padding-bottom: 25px;
+        position: absolute;
+        top: 45%;
+        left: 0;
+        width: 100%;
+    }
+
+    .btn-default {
+        rotation: 90deg;
+    }
+
     .amenitiescaption {
     }
-.greenblock
-{
-    background-color:#69CFBF;
-    color:white;
-    width:61px;
-    text-align:center;
-    top: 0%;
-    padding-bottom: 0px;
-    height: 54px;
-    width: 73px;
-    left: 198px;
-    position:absolute;
-    width:auto;
-}
-.captionmap{
-    text-align:center;
-    width: 100%;
-    left: 31px;
-    background-color:white;
-    right: 0px;
-    left: 0px;
-    
-}
-.captionmap h3{
-    color:black;
-    margin-top:13px;
-}
-.captionmap p{
-    color:black;
-}
-.captionmap .btn{
-background-color:#82bfd8;
-border-radius:0px;
-}
-}
 
+    .greenblock {
+        background-color: #69CFBF;
+        color: white;
+        width: 61px;
+        text-align: center;
+        top: 0%;
+        padding-bottom: 0px;
+        height: 54px;
+        width: 73px;
+        left: 198px;
+        position: absolute;
+        width: auto;
+    }
 
+    .captionmap {
+        text-align: center;
+        width: 100%;
+        left: 31px;
+        background-color: white;
+        right: 0px;
+        left: 0px;
+    }
+
+        .captionmap h3 {
+            color: black;
+            margin-top: 13px;
+        }
+
+        .captionmap p {
+            color: black;
+        }
+
+        .captionmap .btn {
+            background-color: #82bfd8;
+            border-radius: 0px;
+        }
+}
