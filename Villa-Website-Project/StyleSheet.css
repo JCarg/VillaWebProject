@@ -312,6 +312,26 @@ rotation:90deg;
     position:absolute;
     width:auto;
 }
+.captionmap{
+    text-align:center;
+    width: 100%;
+    left: 31px;
+    background-color:white;
+    right: 0px;
+    left: 0px;
+    
+}
+.captionmap h3{
+    color:black;
+    margin-top:13px;
+}
+.captionmap p{
+    color:black;
+}
+.captionmap .btn{
+background-color:#82bfd8;
+border-radius:0px;
+}
 }
 
 
